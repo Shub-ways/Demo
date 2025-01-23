@@ -1,0 +1,22 @@
+0 verbose cli /home/shub/.nvm/versions/node/v22.8.0/bin/node /home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v22.8.0
+3 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/shub/Projects/assignments-main/week-2/week-2-js/.npmrc
+5 silly config load:file:/home/shub/.npmrc
+6 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/etc/npmrc
+7 verbose title npm exec jest anagram.js
+8 verbose argv "exec" "--" "jest" "anagram.js"
+9 verbose logfile logs-max:10 dir:/home/shub/.npm/_logs/2024-09-07T11_30_48_881Z-
+10 verbose logfile /home/shub/.npm/_logs/2024-09-07T11_30_48_881Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/jest 238ms (cache revalidated)
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 verbose cwd /home/shub/Projects/assignments-main/week-2/week-2-js/easy
+17 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+18 verbose node v22.8.0
+19 verbose npm  v10.8.3
+20 verbose exit 1
+21 verbose code 1

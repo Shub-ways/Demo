@@ -1,0 +1,38 @@
+0 verbose cli /home/shub/.nvm/versions/node/v22.8.0/bin/node /home/shub/.nvm/versions/node/v22.8.0/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.8.0
+3 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/shub/.npmrc
+5 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/shub/.npm/_logs/2024-09-07T12_52_13_230Z-
+9 verbose logfile /home/shub/.npm/_logs/2024-09-07T12_52_13_230Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/home/shub/package.json'
+14 verbose stack     at async open (node:internal/fs/promises:638:25)
+14 verbose stack     at async readFile (node:internal/fs/promises:1238:14)
+14 verbose stack     at async read (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:9:18)
+14 verbose stack     at async PackageJson.load (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:130:31)
+14 verbose stack     at async PackageJson.normalize (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:116:5)
+14 verbose stack     at async runScript (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:11:28)
+14 verbose stack     at async Install.exec (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/lib/commands/install.js:163:9)
+14 verbose stack     at async Npm.exec (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/lib/npm.js:207:9)
+14 verbose stack     at async module.exports (/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+15 error code ENOENT
+16 error syscall open
+17 error path /home/shub/package.json
+18 error errno -2
+19 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/shub/package.json'
+20 error enoent This is related to npm not being able to find a file.
+20 error enoent
+21 verbose cwd /home/shub
+22 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+23 verbose node v22.8.0
+24 verbose npm  v10.8.3
+25 verbose exit -2
+26 verbose code -2
+27 error A complete log of this run can be found in: /home/shub/.npm/_logs/2024-09-07T12_52_13_230Z-debug-0.log

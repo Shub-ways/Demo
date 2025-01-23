@@ -1,0 +1,59 @@
+0 verbose cli /home/shub/.nvm/versions/node/v22.8.0/bin/node /home/shub/.nvm/versions/node/v22.8.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.8.0
+3 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/shub/.npmrc
+5 silly config load:file:/home/shub/.nvm/versions/node/v22.8.0/etc/npmrc
+6 verbose title npm install npm@10.8.3
+7 verbose argv "install" "--global" "npm@10.8.3"
+8 verbose logfile logs-max:10 dir:/home/shub/.npm/_logs/2024-09-07T08_07_54_706Z-
+9 verbose logfile /home/shub/.npm/_logs/2024-09-07T08_07_54_706Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 371ms (cache miss)
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@10.8.3
+15 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 4759ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+18 silly placeDep ROOT npm@10.8.3 OK for:  want: 10.8.3
+19 silly reify mark retired [
+19 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm',
+19 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/bin/npm',
+19 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/bin/npx'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/npm': '/home/shub/.nvm/versions/node/v22.8.0/lib/node_modules/.npm-MXWGfSi3',
+20 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/bin/npm': '/home/shub/.nvm/versions/node/v22.8.0/bin/.npm-X7ORYTvl',
+20 silly reify   '/home/shub/.nvm/versions/node/v22.8.0/bin/npx': '/home/shub/.nvm/versions/node/v22.8.0/bin/.npx-fYaelnVH'
+20 silly reify }
+21 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-10.8.3.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-10.8.3.tgz 2078ms (cache miss)
+23 silly CHANGE node_modules/npm
+24 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+25 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+26 silly CHANGE node_modules/npm/node_modules/which
+27 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+28 silly CHANGE node_modules/npm/node_modules/semver
+29 silly CHANGE node_modules/npm/node_modules/postcss-selector-parser
+30 silly CHANGE node_modules/npm/node_modules/pacote
+31 silly CHANGE node_modules/npm/node_modules/npm-package-arg
+32 silly CHANGE node_modules/npm/node_modules/nopt
+33 silly CHANGE node_modules/npm/node_modules/node-gyp
+34 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/proc-log
+35 silly CHANGE node_modules/npm/node_modules/mkdirp
+36 silly CHANGE node_modules/npm/node_modules/lru-cache
+37 silly CHANGE node_modules/npm/node_modules/jackspeak
+38 silly CHANGE node_modules/npm/node_modules/libnpmexec
+39 silly CHANGE node_modules/npm/node_modules/foreground-child
+40 silly CHANGE node_modules/npm/node_modules/cross-spawn/node_modules/which
+41 silly CHANGE node_modules/npm/node_modules/glob
+42 silly CHANGE node_modules/npm/node_modules/debug
+43 silly CHANGE node_modules/npm/node_modules/cssesc
+44 silly CHANGE node_modules/npm/node_modules/cacache
+45 verbose cwd /home/shub/Projects/assignments-main/week-2/week-2-js
+46 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+47 verbose node v22.8.0
+48 verbose npm  v10.8.2
+49 verbose exit 0
+50 info ok
