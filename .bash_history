@@ -171,3 +171,101 @@ sudo apt update
 sudo apt install postgresql postgresql-contrib
 sudo apt update
 sudo apt upgrade heroku
+ls
+ls -a
+git
+mkdir bro
+cd bro/
+touch a.txt
+ls
+cd .
+cd..
+cd ..
+ls
+git init
+ls -a
+ls .git
+cd bro/
+ls bro
+cd ..
+ls bro/
+cd bro/
+git status
+git add .
+git status
+git commit -m "a.txt file is added"
+git config --global user.email "shubhamkumar44838@gmail.com"
+git config --global username "Shubham kumar"
+git config --global user.name "Shubham kumar"
+git status
+git commit -m "a.txt file is added"
+git status
+cd ..
+git status
+git add .
+git status
+git commit -m "All file added successfully"
+git status
+cd bro/
+git status
+vi a.txt
+cat a.txt
+vi a.txt
+cat a.txt
+git status
+git add .
+git status
+git commit -m "Personal info added"
+git status
+git add ../.viminfo
+git status
+git commit -m "Pata nhi"
+git status
+git restore --staged a.txt
+git status
+git log
+rm -rf a.txt
+git status
+git add a.txt
+git commit -m "a.txt file deleted"
+git status
+git log
+git reset eb551c2af684baab9169360ad7ade7d688723cd5
+git log
+git status
+git add .
+git status
+touch b.txt
+git add .
+git status
+rm -rf b.txt
+git status
+git add b.txt
+git commit -m "b.txt deleted"
+git status
+rm -rf a.txt
+git status
+ls
+git log
+touch a.txt
+ls
+git status
+git add a.txt
+git commit -m "a.txt is added"
+rm -rf a.txt
+git status
+git add a.txt
+git status
+touch surnames.txt
+git add .
+git status
+vi surnames.txt
+touch houses.txt
+git add .
+git status
+git stash
+git status
+git log
+git stash pop
+ls 
+touch hotel.txt
